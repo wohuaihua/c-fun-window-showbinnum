@@ -1,0 +1,364 @@
+﻿Build started 2020/2/23 13:01:15.
+     1>Project "G:\workspace\c\fun-c-window\showbinnum\showbinnum\showbinnum.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\VS2-2013-PRO\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>main.c(120): warning C4028: formal parameter 3 different from declaration
+     1>main.c(189): warning C4133: 'function' : incompatible types - from 'char [5]' to 'LPCWSTR'
+     1>main.c(416): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(416): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 1
+     1>main.c(416): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 2
+     1>main.c(418): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(418): warning C4024: 'checkInput' : different types for formal and actual parameter 1
+     1>main.c(418): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(418): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(420): warning C4047: 'function' : 'LPWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(420): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 1
+     1>main.c(420): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(420): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 2
+     1>main.c(421): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(421): warning C4024: 'showBinFrame' : different types for formal and actual parameter 1
+     1>main.c(421): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(421): warning C4024: 'showBinFrame' : different types for formal and actual parameter 2
+     1>main.c(421): warning C4024: 'showBinFrame' : different types for formal and actual parameter 3
+     1>main.c(422): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(422): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 1
+     1>main.c(422): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(422): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 2
+     1>main.c(422): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 3
+     1>main.c(423): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(423): warning C4024: 'showDecFrame' : different types for formal and actual parameter 1
+     1>main.c(423): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(423): warning C4024: 'showDecFrame' : different types for formal and actual parameter 2
+     1>main.c(423): warning C4024: 'showDecFrame' : different types for formal and actual parameter 3
+     1>main.c(424): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(424): warning C4024: 'showHexFrame' : different types for formal and actual parameter 1
+     1>main.c(424): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(424): warning C4024: 'showHexFrame' : different types for formal and actual parameter 2
+     1>main.c(424): warning C4024: 'showHexFrame' : different types for formal and actual parameter 3
+     1>main.c(425): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(425): warning C4024: 'showOneFrame' : different types for formal and actual parameter 1
+     1>main.c(425): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(425): warning C4024: 'showOneFrame' : different types for formal and actual parameter 2
+     1>main.c(425): warning C4024: 'showOneFrame' : different types for formal and actual parameter 3
+     1>main.c(426): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(426): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 1
+     1>main.c(426): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(426): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 2
+     1>main.c(426): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 3
+     1>main.c(427): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(427): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(430): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(430): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 1
+     1>main.c(430): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 2
+     1>main.c(432): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(432): warning C4024: 'checkInput' : different types for formal and actual parameter 1
+     1>main.c(432): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(432): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(434): warning C4047: 'function' : 'LPWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(434): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 1
+     1>main.c(434): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(434): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 2
+     1>main.c(437): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(437): warning C4024: 'showBinFrame' : different types for formal and actual parameter 1
+     1>main.c(437): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(437): warning C4024: 'showBinFrame' : different types for formal and actual parameter 3
+     1>main.c(438): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(438): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 1
+     1>main.c(438): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(438): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 3
+     1>main.c(439): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(439): warning C4024: 'showDecFrame' : different types for formal and actual parameter 1
+     1>main.c(439): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(439): warning C4024: 'showDecFrame' : different types for formal and actual parameter 3
+     1>main.c(440): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(440): warning C4024: 'showHexFrame' : different types for formal and actual parameter 1
+     1>main.c(440): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(440): warning C4024: 'showHexFrame' : different types for formal and actual parameter 3
+     1>main.c(441): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(441): warning C4024: 'showOneFrame' : different types for formal and actual parameter 1
+     1>main.c(441): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(441): warning C4024: 'showOneFrame' : different types for formal and actual parameter 3
+     1>main.c(442): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(442): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 1
+     1>main.c(442): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(442): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 3
+     1>main.c(443): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(443): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(447): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(447): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 1
+     1>main.c(447): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 2
+     1>main.c(449): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(449): warning C4024: 'checkInput' : different types for formal and actual parameter 1
+     1>main.c(449): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(449): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(451): warning C4047: 'function' : 'LPWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(451): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 1
+     1>main.c(451): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(451): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 2
+     1>main.c(452): warning C4047: 'function' : 'TCHAR *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(452): warning C4024: 'radixToDec' : different types for formal and actual parameter 2
+     1>main.c(453): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(453): warning C4024: 'showBinFrame' : different types for formal and actual parameter 1
+     1>main.c(453): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(453): warning C4024: 'showBinFrame' : different types for formal and actual parameter 3
+     1>main.c(454): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(454): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 1
+     1>main.c(454): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(454): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 3
+     1>main.c(455): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(455): warning C4024: 'showDecFrame' : different types for formal and actual parameter 1
+     1>main.c(455): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(455): warning C4024: 'showDecFrame' : different types for formal and actual parameter 3
+     1>main.c(456): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(456): warning C4024: 'showHexFrame' : different types for formal and actual parameter 1
+     1>main.c(456): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(456): warning C4024: 'showHexFrame' : different types for formal and actual parameter 3
+     1>main.c(457): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(457): warning C4024: 'showOneFrame' : different types for formal and actual parameter 1
+     1>main.c(457): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(457): warning C4024: 'showOneFrame' : different types for formal and actual parameter 3
+     1>main.c(458): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(458): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 1
+     1>main.c(458): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(458): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 3
+     1>main.c(459): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(459): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(461): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(461): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 1
+     1>main.c(461): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 2
+     1>main.c(463): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(463): warning C4024: 'checkInput' : different types for formal and actual parameter 1
+     1>main.c(463): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(463): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(465): warning C4047: 'function' : 'LPWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(465): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 1
+     1>main.c(465): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(465): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 2
+     1>main.c(466): warning C4047: 'function' : 'TCHAR *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(466): warning C4024: 'radixToDec' : different types for formal and actual parameter 2
+     1>main.c(467): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(467): warning C4024: 'showBinFrame' : different types for formal and actual parameter 1
+     1>main.c(467): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(467): warning C4024: 'showBinFrame' : different types for formal and actual parameter 3
+     1>main.c(468): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(468): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 1
+     1>main.c(468): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(468): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 3
+     1>main.c(469): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(469): warning C4024: 'showDecFrame' : different types for formal and actual parameter 1
+     1>main.c(469): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(469): warning C4024: 'showDecFrame' : different types for formal and actual parameter 3
+     1>main.c(470): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(470): warning C4024: 'showHexFrame' : different types for formal and actual parameter 1
+     1>main.c(470): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(470): warning C4024: 'showHexFrame' : different types for formal and actual parameter 3
+     1>main.c(471): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(471): warning C4024: 'showOneFrame' : different types for formal and actual parameter 1
+     1>main.c(471): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(471): warning C4024: 'showOneFrame' : different types for formal and actual parameter 3
+     1>main.c(472): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(472): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 1
+     1>main.c(472): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(472): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 3
+     1>main.c(473): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(473): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(476): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(476): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 1
+     1>main.c(476): warning C4024: 'lstrcmpW' : different types for formal and actual parameter 2
+     1>main.c(478): warning C4047: 'function' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(478): warning C4024: 'checkInput' : different types for formal and actual parameter 1
+     1>main.c(478): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(478): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(480): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(480): warning C4024: 'cleanFrames' : different types for formal and actual parameter 1
+     1>main.c(481): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(481): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(486): warning C4047: 'function' : 'LPWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(486): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 1
+     1>main.c(486): warning C4047: 'function' : 'LPCWSTR' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(486): warning C4024: 'lstrcpyW' : different types for formal and actual parameter 2
+     1>main.c(487): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(487): warning C4024: 'cleanFrames' : different types for formal and actual parameter 1
+     1>main.c(499): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(499): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(503): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(503): warning C4024: 'showBinFrame' : different types for formal and actual parameter 1
+     1>main.c(504): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(504): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 1
+     1>main.c(505): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(505): warning C4024: 'showDecFrame' : different types for formal and actual parameter 1
+     1>main.c(506): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(506): warning C4024: 'showHexFrame' : different types for formal and actual parameter 1
+     1>main.c(507): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(507): warning C4024: 'showOneFrame' : different types for formal and actual parameter 1
+     1>main.c(508): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(508): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 1
+     1>main.c(509): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(509): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(519): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(519): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(523): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(523): warning C4024: 'showBinFrame' : different types for formal and actual parameter 1
+     1>main.c(524): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(524): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 1
+     1>main.c(525): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(525): warning C4024: 'showDecFrame' : different types for formal and actual parameter 1
+     1>main.c(526): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(526): warning C4024: 'showHexFrame' : different types for formal and actual parameter 1
+     1>main.c(527): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(527): warning C4024: 'showOneFrame' : different types for formal and actual parameter 1
+     1>main.c(528): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(528): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 1
+     1>main.c(529): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(529): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(539): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(539): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(543): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(543): warning C4024: 'showBinFrame' : different types for formal and actual parameter 1
+     1>main.c(544): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(544): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 1
+     1>main.c(545): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(545): warning C4024: 'showDecFrame' : different types for formal and actual parameter 1
+     1>main.c(546): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(546): warning C4024: 'showHexFrame' : different types for formal and actual parameter 1
+     1>main.c(547): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(547): warning C4024: 'showOneFrame' : different types for formal and actual parameter 1
+     1>main.c(548): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(548): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 1
+     1>main.c(549): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(549): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(559): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(559): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(563): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(563): warning C4024: 'showBinFrame' : different types for formal and actual parameter 1
+     1>main.c(564): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(564): warning C4024: 'showOtcFrame' : different types for formal and actual parameter 1
+     1>main.c(565): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(565): warning C4024: 'showDecFrame' : different types for formal and actual parameter 1
+     1>main.c(566): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(566): warning C4024: 'showHexFrame' : different types for formal and actual parameter 1
+     1>main.c(567): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(567): warning C4024: 'showOneFrame' : different types for formal and actual parameter 1
+     1>main.c(568): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(568): warning C4024: 'showTwoFrame' : different types for formal and actual parameter 1
+     1>main.c(569): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(569): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(580): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(580): warning C4024: 'checkInput' : different types for formal and actual parameter 2
+     1>main.c(582): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(582): warning C4024: 'cleanFrames' : different types for formal and actual parameter 1
+     1>main.c(583): warning C4047: 'function' : 'HWND' differs in levels of indirection from 'HWND [14]'
+     1>main.c(583): warning C4024: 'showAssicFrame' : different types for formal and actual parameter 1
+     1>main.c(600): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>main.c(655): warning C4028: formal parameter 1 different from declaration
+     1>main.c(656): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(660): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(662): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(662): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(662): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(665): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(667): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(667): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(667): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(670): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(672): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(672): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(672): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(682): warning C4028: formal parameter 1 different from declaration
+     1>main.c(683): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(685): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(685): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(685): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(688): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(692): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(694): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(694): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(694): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(697): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(699): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(699): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(699): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(709): warning C4028: formal parameter 1 different from declaration
+     1>main.c(710): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(712): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(712): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(712): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(715): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(717): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(717): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(717): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(720): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(724): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(726): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(726): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(726): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(736): warning C4028: formal parameter 1 different from declaration
+     1>main.c(737): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(739): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(739): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(739): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(742): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(744): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(744): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(744): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(747): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(749): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(749): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(749): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(752): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(763): warning C4028: formal parameter 1 different from declaration
+     1>main.c(764): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(768): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(768): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(768): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(772): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(777): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(777): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(777): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(788): warning C4028: formal parameter 1 different from declaration
+     1>main.c(789): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(793): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(793): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(793): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(797): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(805): warning C4047: 'function' : 'wchar_t *' differs in levels of indirection from 'TCHAR (*)[128]'
+     1>main.c(805): warning C4024: '_itow' : different types for formal and actual parameter 2
+     1>main.c(805): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 F:\VS2-2013-PRO\VC\include\stdlib.h(687) : see declaration of '_itow'
+     1>main.c(816): warning C4028: formal parameter 1 different from declaration
+     1>main.c(851): warning C4047: 'function' : 'const wchar_t *' differs in levels of indirection from 'TCHAR (*)[2]'
+     1>main.c(851): warning C4024: '_wtoi' : different types for formal and actual parameter 1
+     1>main.c(864): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>main.c(880): warning C4047: 'function' : 'const wchar_t *' differs in levels of indirection from 'TCHAR (*)[2]'
+     1>main.c(880): warning C4024: '_wtoi' : different types for formal and actual parameter 1
+     1>main.c(893): warning C4244: '+=' : conversion from 'double' to '__int64', possible loss of data
+     1>main.c(902): warning C4028: formal parameter 2 different from declaration
+     1>main.c(908): warning C4047: '!=' : 'int' differs in levels of indirection from 'void *'
+     1>main.c(1023): warning C4028: formal parameter 1 different from declaration
+       Link:
+         F:\VS2-2013-PRO\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\workspace\c\fun-c-window\showbinnum\Release\showbinnum.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"F:\VS2-2013-PRO\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"G:\workspace\c\fun-c-window\showbinnum\Release\showbinnum.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\workspace\c\fun-c-window\showbinnum\Release\showbinnum.lib" /MACHINE:X86 /SAFESEH Release\showbinnum.res
+         Release\main.obj
+         Generating code
+         Finished generating code
+         showbinnum.vcxproj -> G:\workspace\c\fun-c-window\showbinnum\Release\showbinnum.exe
+     1>Done Building Project "G:\workspace\c\fun-c-window\showbinnum\showbinnum\showbinnum.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19
